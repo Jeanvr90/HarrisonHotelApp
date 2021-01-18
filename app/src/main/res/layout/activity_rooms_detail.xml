@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="10dp"
+                        android:elevation="0dp">
+
+                    <ImageView
+                            android:id="@+id/iv_avatar_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="center"
+                            android:contentDescription="@string/img_room"/>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif"
+                        android:text="S/"
+                        android:textSize="20dp" />
+
+                <TextView
+                        android:id="@+id/txt_typo_room_price_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20sp"
+                        android:text="@string/txt_price_typo_room_detal" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20sp"
+                        android:text=".00" />
+
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="160dp"
+                        android:layout_marginStart="160dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_airline_seat_individual_suite_24"
+                        app:tint="#EA0C0C"/>
+
+                <TextView
+                        android:id="@+id/txt_typo_room_nro_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:text="@string/txt_nro_bet_detail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18sp"
+                        android:text="Habitación"/>
+
+                <TextView
+                        android:id="@+id/txt_typo_room_name_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18sp"
+                        android:text="@string/txt_typo_room_name_detail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="vertical" >
+
+                <TextView
+                        android:id="@+id/txt_description_room_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="Descripción: %1$s"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_list_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:textColor="#3F51B5" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_goToLogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="100dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="@color/color_button"
+                android:text="@string/txt_loge"
+                android:textColor="@color/black"
+                tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

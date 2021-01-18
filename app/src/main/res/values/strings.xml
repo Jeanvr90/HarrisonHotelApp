@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Hotel Harrison App</string>
+    <string name="description_hotel_splash">icon hotel</string>
+    <string name="tv_welcome">Bienvenido!!</string>
+    <string name="tv_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="txt_searching">Localízanos</string>
+    <string name="ic_map_description">icon map</string>
+    <string name="txt_rooms">Ver habitaciones</string>
+    <string name="txt_logging">Ingresar</string>
+    <string name="txt_access">ingresar</string>
+    <string name="txt_back">regresar</string>
+    <string name="txt_hint_email">correo</string>
+    <string name="txt_hint_password">password</string>
+    <string name="logo_harrison">logo</string>
+    <string name="txt_register_link">¿No tienes una cuenta?. Registrate aquí</string>
+    <string name="txt_hint_name">nombre</string>
+    <string name="txt_hint_last_name">apellido</string>
+    <string name="txt_hint_email_register">email</string>
+    <string name="txt_hint_password_register">password</string>
+    <string name="txt_back_login">Ya cuentas con una cuenta? Volver aquí</string>
+    <string name="txt_register_register">registrarse</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txt_not_found">not found</string>
+    <string name="txt_price">%1$s</string>
+    <string name="txt_title"> %1$s</string>
+    <string name="txt_description"> %1$s</string>
+    <string name="txt_number"> %1$s</string>
+    <string name="txt_nro_bet_detail">%1$s</string>
+    <string name="txt_price_typo_room_detal">%1$s</string>
+    <string name="txt_typo_room_name_detail"> %1$s</string>
+    <string name="title_account">Account</string>
+    <string name="title_reserve">Reservas</string>
+    <string name="txt_name_profile_string">Mi Nombre</string>
+    <string name="txt_last_name_profile_string">Mi Apellido</string>
+    <string name="title_reserve_nav">Reserve</string>
+    <string name="title_search">Search</string>
+    <string name="title_gps">Gps</string>
+
+    <string name="login_shared_preference">"com.truelinesolution.sharedpreferenceexamplelogin_shared_preference"</string>
+    <string name="login_status_shared_preference">"com.truelinesolution.sharedpreferenceexamplesharedpreference_login_status_shared_preference"</string>
+
+
+    <!--    token for MAPBOX-->
+    <string name="access_token" translatable="false">pk.eyJ1IjoiYTE4MTAwMDU0IiwiYSI6ImNram1kbWp2djAzeGcycHBlMTZrZm9zODIifQ.gqZCO2usbJavClx7E0ix4A</string>
+    <string name="list_log_desc">Ingresa a tu cuenta para iniciar la reserva</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_hint_telefono_register">telefono</string>
+
+
+    <string name="description_final"> Gracias por realizar su reserva, es necesario hacer el deposito del 50 %1$s para confirmar su reserva(PLAZO MAXIMO 2 DIAS).
+        Luego enviar una foto al siguiente numero de Whatsapp 945815621
+
+ </string>
+    <string name="txt_loge">logearse</string>
+    <string name="Regresar">txt_Regresar</string>
+    <string name="txt_regresar">regresar</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_check">Guardar sesión</string>
+    <string name="register_title">Formulario de registro</string>
+    <string name="img_room">habitacion</string>
+    <string name="txt_more_info">Mas información</string>
+    <string name="icon_target">tarjeta</string>
+    <string name="account_title">Perfil de usuario</string>
+    <string name="button_session">cerrar session</string>
+    <string name="frag_home_title">Elegir Fecha</string>
+    <string name="frag_home_button_title">buscar habitacion</string>
+    <string name="icon_arrow">arrow</string>
+    <string name="icon_notification">notification</string>
+    <string name="icon_logout">logout</string>
+    <string name="txt_reserve_frag_text">Usted no tiene ninguna reserva registrada.</string>
+    <string name="reserve_frag_title">Historial de reservas</string>
+
+
+</resources>
